@@ -1,23 +1,19 @@
 
 import React from "react";
 import { Navbar } from "@/components/layout/Navbar";
-import { Hero } from "@/components/home/Hero";
-import { ServicesPreview } from "@/components/home/ServicesPreview";
-import { WhyChooseUs } from "@/components/home/WhyChooseUs";
+import { AboutHero } from "@/components/about/AboutHero";
 import { Footer } from "@/components/common/Footer";
 
-const Index = () => {
+const About = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow">
-        <Hero />
-        <ServicesPreview />
-        <WhyChooseUs />
+        <AboutHero />
       </main>
       <Footer />
     </div>
   );
 };
 
-export default Index;
+export default About;
